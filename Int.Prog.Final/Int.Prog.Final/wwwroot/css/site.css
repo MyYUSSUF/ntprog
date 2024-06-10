@@ -1,0 +1,116 @@
+﻿/* Body Background */
+body {
+    background-color: #ecf0f1; /* Açık Gri */
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #34495e; /* Koyu Mavi */
+}
+
+.nav-link {
+    color: white !important;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 25px; /* Yuvarlak köşeler */
+}
+
+    .nav-link:hover {
+        background-color: #2c3e50; /* İmleç gelince renk */
+        color: white !important;
+    }
+
+/* Buttons */
+.btn {
+    border-radius: 25px; /* Yuvarlak köşeler */
+    font-size: 16px; /* Buton yazı boyutu */
+    padding: 10px 30px; /* Buton iç boşluk */
+}
+
+.btn-primary {
+    background-color: #1abc9c;
+    color: white;
+    border-color: #1abc9c;
+}
+
+    .btn-primary:hover {
+        background-color: #16a085;
+        color: white;
+        border-color: #16a085;
+    }
+
+.btn-secondary {
+    background-color: #34495e;
+    color: white;
+    border-color: #34495e;
+}
+
+    .btn-secondary:hover {
+        background-color: #2c3e50;
+        color: white;
+        border-color: #2c3e50;
+    }
+
+.btn-danger {
+    background-color: #e74c3c;
+    color: white;
+    border-color: #e74c3c;
+}
+
+    .btn-danger:hover {
+        background-color: #c0392b;
+        color: white;
+        border-color: #c0392b;
+    }
+
+/* Welcome Page */
+.jumbotron {
+    text-align: center;
+    background-color: #1abc9c;
+    border-radius: 25px;
+    padding: 2rem;
+    margin-top: 20px;
+    color: white;
+}
+
+/* Table Styles */
+.table-custom {
+    background-color: #ffffff; /* Beyaz */
+    border: 1px solid #95a5a6; /* Gri */
+    border-radius: 25px;
+    padding: 15px;
+}
+
+    .table-custom th, .table-custom td {
+        border: 1px solid #95a5a6; /* Gri */
+        padding: 10px;
+    }
+
+    .table-custom th {
+        background-color: #1abc9c;
+        color: white;
+    }
+
+/* Form Styles */
+.form-horizontal {
+    background-color: #ffffff; /* Beyaz */
+    border: 1px solid #95a5a6; /* Gri */
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+/* Course Item */
+.course-item {
+    border: 1px solid #95a5a6; /* Gri */
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    background-color: #ffffff; /* Beyaz */
+}
+
+/* Button Alignment */
+.text-right {
+    text-align: right;
+}
